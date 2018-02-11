@@ -1,0 +1,127 @@
+/* Custom CSS  */
+/* Landing Kit */
+/* Simple Version */
+/* Author: m4rtin */
+
+/* --------------------------------------------------------------------*/
+/* ---------------------------------------------------- General Styles */
+
+body {
+    color:#333333;
+    background-color:#fff;
+}
+body a, body a:hover, body a:focus, body a:active {
+    text-decoration:none;
+    color:inherit;
+}
+h1, h2, h5 {
+    font-family:'Roboto', sans-serif;
+}
+h1 {
+    font-size:2.5em;
+    line-height:1.2em;
+}
+h2 {
+    font-size:1.8em;
+    line-height:1.2em;
+}
+ul li, ul {
+    margin:0;
+    padding:0;
+}
+p, a, input, textarea, h5 {
+    font-family:'Roboto', sans-serif;
+    font-size: 1em;
+    color:#bbb;
+}
+p {
+    line-height:1.5em;
+}
+
+/* --------------------------------------------------------------------*/
+/* --------------------------------------------------- Section: NavBar */
+
+.navbar {
+    background-color:#fff;
+}
+.navbar-brand img {
+    width:50%;
+}
+.navbar-menu-icon {
+    top:25px;
+}
+
+/* --------------------------------------------------------------------*/
+/* --------------------------------------------------- Section: Footer */
+
+footer {
+    background-color:#252525;
+    color:#fff;
+}
+footer img {
+    width:30%;
+}
+footer ul li {
+    display:inline-block;
+    margin:0 10px;
+}
+
+/* --------------------------------------------------------------------*/
+/* --------------------------------------- Sections Styles for Testing */
+
+.scrollToTop {
+    display:none;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
+.scrollToTop i {
+    font-size:2.5em;
+    color:rgba(0,0,0,0.6);
+}
+.section1, .section2, .section3, .section4, .section5 {
+    height:50vh;
+}
+
+.section1, .section3, .section5 {
+    background-color:#d2a052;
+}
+.section2, .section4 {
+    background-color:#edd37a;
+}
+
+/* --------------------------------------------------------------------*/
+/* ------------------------------------------------- Responsive Styles */
+/* --------------------------------------------------------------------*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   .scrollToTop i {
+        font-size:3em;
+    }
+    .scrollToTop {
+        bottom:40px;
+        right:40px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+          
+}
+
+/* Smaller Mobiles */
+
+@media (max-width: 340px) { 
+
+}

@@ -1,0 +1,96 @@
+/* Custom CSS  */
+/* Landing Kit */
+/* Simple Version */
+/* Author: m4rtin */
+
+/* --------------------------------------------------------------------*/
+/* ---------------------------------------------------- General Styles */
+
+body {
+    color:#333333;
+    background-color:#fff;
+}
+body a, body a:hover, body a:focus, body a:active {
+    text-decoration:none;
+    color:inherit;
+}
+h1, h2, h5 {
+    font-family:'Roboto', sans-serif;
+}
+h1 {
+    font-size:2.5em;
+    line-height:1.2em;
+}
+h2 {
+    font-size:1.8em;
+    line-height:1.2em;
+}
+ul li, ul {
+    margin:0;
+    padding:0;
+}
+p, a, input, textarea, h5 {
+    font-family:'Roboto', sans-serif;
+    font-size: 1em;
+    color:#bbb;
+}
+p {
+    line-height:1.5em;
+}
+
+/* --------------------------------------------------------------------*/
+/* --------------------------------------- Sections Styles for Testing */
+
+.section1, .section3, .section5 {
+    background-color:#d2a052;
+}
+.section2, .section4 {
+    background-color:#edd37a;
+}
+
+/* --------------------------------------------------------------------*/
+/* --------------------------------------------------- Section: Footer */
+
+.footer {
+    background-color:#252525;
+    color:#fff;
+}
+.footer img {
+    width:200px;
+}
+.footer ul li {
+    display:inline-block;
+    margin:0 10px;
+}
+
+/* --------------------------------------------------------------------*/
+/* ------------------------------------------------- Responsive Styles */
+/* --------------------------------------------------------------------*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+        
+}
+
+/* Smaller Mobiles */
+
+@media (max-width: 340px) { 
+    
+}
