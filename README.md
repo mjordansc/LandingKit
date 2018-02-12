@@ -13,6 +13,10 @@ Conjunto de herramientas para crear páginas de aterrizaje (Landing Pages) utili
 * Versión que permite visualizar una sección a la vez.
 * Incluye un menú a la derecha para navegar entre secciones.
 
+### Parallax
+* Versión que utiliza el efecto parallax exclusivamente con CSS.
+* Incluye menú y flecha de navegación para volver al inicio
+
 ## Construido con
 * [OnePageScroll](https://github.com/peachananr/onepage-scroll)
 * [FontAwesome](https://fontawesome.io)
@@ -21,8 +25,9 @@ Conjunto de herramientas para crear páginas de aterrizaje (Landing Pages) utili
 ## Autor
 * **Martin Jordan**
 
-## Reconocimientos
+## Logos & Fotografía
 * [Acme Logos](http://acmelogos.com/)
+* [Pexels](https://www.pexels.com/)
 
 ## Licencia
 Este proyecto cuenta con la licencia MIT License

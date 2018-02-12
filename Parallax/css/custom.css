@@ -1,11 +1,14 @@
 /* Custom CSS  */
 /* Landing Kit */
-/* One Page Scroll */
+/* Parallax Version */
 /* Author: m4rtin */
 
 /* --------------------------------------------------------------------*/
 /* ---------------------------------------------------- General Styles */
 
+body, html {
+    height:100%;
+}
 body {
     color:#333333;
     background-color:#fff;
@@ -20,6 +23,7 @@ h1, h2, h5 {
 h1 {
     font-size:2.5em;
     line-height:1.2em;
+    color:#e7e7e7;
 }
 h2 {
     font-size:1.8em;
@@ -39,28 +43,74 @@ p {
 }
 
 /* --------------------------------------------------------------------*/
-/* --------------------------------------- Sections Styles for Testing */
+/* --------------------------------------------------- Section: NavBar */
 
-.section1, .section3, .section5 {
-    background-color:#d2a052;
+.navbar {
+    background-color:#fff;
 }
-.section2, .section4 {
-    background-color:#edd37a;
+.navbar-brand img {
+    width:50%;
+}
+.navbar-menu-icon {
+    top:25px;
 }
 
 /* --------------------------------------------------------------------*/
 /* --------------------------------------------------- Section: Footer */
 
-.footer {
+footer {
     background-color:#252525;
     color:#fff;
 }
-.footer img {
-    width:200px;
+footer img {
+    width:150px;
 }
-.footer ul li {
+footer ul li {
     display:inline-block;
     margin:0 10px;
+}
+
+/* --------------------------------------------------------------------*/
+/* --------------------------------------- Sections Styles for Testing */
+
+.scrollToTop {
+    display:none;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
+.scrollToTop i {
+    font-size:2.5em;
+    color:#e7e7e7;
+}
+.parallax {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
+#parallax-1 {
+    background-image:url(../img/street-1.jpg);
+    background-position:65% 50%;
+}
+#parallax-2 {
+    background-image:url(../img/street-2.jpg);
+    background-position:20% 50%;
+}
+#parallax-3 {
+    background-image:url(../img/street-3.jpg);
+    background-position:40% 50%;
+}
+#parallax-4 {
+    background-image:url(../img/street-4.jpg);
+    background-position:40% 50%;
+}
+
+.section {
+    background-color:#111;
+}
+.section2 img, .section3 img {
+    width:100%;
 }
 
 /* --------------------------------------------------------------------*/
@@ -74,23 +124,39 @@ p {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+   .scrollToTop i {
+        font-size:3em;
+    }
+    .scrollToTop {
+        bottom:40px;
+        right:40px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     
-    
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    
-        
+@media (min-width: 1200px) {  
+    .parallax {
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .section1 {
+        height:80vh;
+    }
+    .section2 {
+        height:100vh;
+    }
+    .section3 {
+        height:150vh;
+    }
 }
 
 /* Smaller Mobiles */
 
 @media (max-width: 340px) { 
-    
+
 }
